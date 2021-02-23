@@ -365,7 +365,7 @@ class TextField extends StatefulWidget {
     this.keyboardAppearance,
     this.scrollPadding = const EdgeInsets.all(20.0),
     this.dragStartBehavior = DragStartBehavior.start,
-    this.enableInteractiveSelection = true,
+    this.enableInteractiveSelection = false,
     this.onTap,
     this.mouseCursor,
     this.buildCounter,
